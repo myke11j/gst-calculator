@@ -1,1 +1,1 @@
-require('./test-1');
+require('./helpers-test');

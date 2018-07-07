@@ -4,7 +4,8 @@
   "description": "Test app for GST CalC",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./tests/index.js",
+    "dev": "NODE_ENV=development nodemon ./index.js",
+    "test": "NODE_ENV=development mocha ./tests/index.js",
     "lint": "eslint **/*.js",
     "lintfix": "eslint --fix **/*.js"
   },
